@@ -1,0 +1,7 @@
+numpy<2.0
+imageio[ffmpeg]
+robosuite==1.4.1
+bddl
+easydict
+cloudpickle
+gym
