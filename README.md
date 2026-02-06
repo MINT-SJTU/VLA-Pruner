@@ -22,7 +22,7 @@
 
 ## 🎯 Overview
 
-We identify the **dual-system nature** in VLA models with distinct attention patterns: prefilling shows broad semantic coverage, while action decoding is locally focused.
+We identify the dual-system nature in VLA models with distinct attention patterns: prefilling shows broad semantic coverage, while action decoding is locally focused.
 
 <p align='center'>
 <img src='./assert/observation.png' alt='observation' width='800px'>
