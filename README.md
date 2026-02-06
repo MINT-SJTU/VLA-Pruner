@@ -16,7 +16,7 @@
 
 ## 📌 News
 
-🔥 **[2025/02]**: Code for OpenVLA is available ([OpenVLA README](src/openvla/README_VLA_Pruner.md)).
+🔥 **[2025/02/06]**: Code for OpenVLA is available ([OpenVLA README](src/openvla/README_VLA_Pruner.md)).
 
 ---
 
