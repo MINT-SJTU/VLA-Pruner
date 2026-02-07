@@ -107,7 +107,7 @@ For more evaluation scripts and detailed instructions, see [OpenVLA README](src/
 
 If you find this work useful, please cite:
 ```bibtex
-@article{liu2025vlapruner,
+@article{liu2025vla,
   title={VLA-Pruner: Temporal-Aware Dual-Level Visual Token Pruning for Efficient Vision-Language-Action Inference},
   author={Liu, Ziyan and Chen, Yeqiu and Cai, Hongyi and Lin, Tao and Yang, Shuo and Liu, Zheng and Zhao, Bo},
   journal={arXiv preprint arXiv:2511.16449},
