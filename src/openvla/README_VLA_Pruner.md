@@ -17,6 +17,7 @@
 Set up a conda environment with LIBERO (follow instructions in [README.md](README.md)).
 
 ```bash
+conda create -n openvla python=3.10
 conda activate openvla
 cd src/openvla
 pip install -e .
