@@ -1,4 +1,4 @@
-# <div align="center">VLA-Pruner: Bridging the Semantic-Action Gap in Visual Token Pruning for Efficient VLA Inference</div>
+# <div align="center">Bridging the Semantic-Action Gap in Visual Token Pruning for Efficient VLA Inference (VLA-Pruner)</div>
 
 <div align="center">
 
