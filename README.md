@@ -32,7 +32,7 @@ Vision-Language-Action (VLA) models integrate visual perception, language unders
 Our analysis attributes this degradation to a key mismatch between semantic salience and action relevance. VLA inference exhibits distinct attention patterns between the vision-language prefill stage and the action-decode stage. Pruning based only on context-prefill semantic salience is therefore biased toward semantic cues and may remove action-critical visual tokens. The following observation illustrates this semantic-action mismatch across inference stages.
 
 <p align='center'>
-<img src='./assert/observation.png' alt='Semantic-action mismatch in VLA inference' width='800px'>
+<img src='./assert/observation-v4.png' alt='Semantic-action mismatch in VLA inference' width='800px'>
 <br>
 <em>Observation: semantic salience during prefilling does not fully align with action relevance during decoding.</em>
 </p>
@@ -40,7 +40,7 @@ Our analysis attributes this degradation to a key mismatch between semantic sali
 To address this issue, we propose VLA-Pruner, an effective plug-and-play token pruning method tailored to the visual requirements of VLA inference. VLA-Pruner estimates visual-token importance from both semantic prefilling and temporally smoothed action relevance. It then applies a Combine-then-Filter strategy: first combining tokens important to either semantic understanding or action decoding, and then filtering redundant candidates under the target compute budget.
 
 <p align='center'>
-<img src='./assert/framework.png' alt='Framework of VLA-Pruner' width='400px'>
+<img src='./assert/framework-v4.png' alt='Framework of VLA-Pruner' width='400px'>
 <br>
 <em>Framework: semantic-action importance estimation followed by Combine-then-Filter token selection.</em>
 </p>
