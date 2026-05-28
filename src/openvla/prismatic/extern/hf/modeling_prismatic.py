@@ -570,7 +570,7 @@ class OpenVLAForActionPrediction(PrismaticForConditionalGeneration):
                     self.step = len(self.av_hist)
                 else:
                     self.step += 1
-                weights = np.array([self.av_decay ** i for i in range(len(self.av_hist)-1, -1, -1)], dtype=np.float32)
+                weights = np.array([self.av_decay ** i for i in range(len(self.av_hist))], dtype=np.float32)
                 guided = np.zeros(256, dtype=np.float32)
                 for i in range(len(weights)):
                     guided += weights[i] * self.av_hist[-1 - i]
