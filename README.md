@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![arXiv](https://img.shields.io/badge/Paper-Arxiv-red)](https://arxiv.org/pdf/2511.16449v4)
+[![arXiv](https://img.shields.io/badge/Paper-Arxiv-red)](https://arxiv.org/pdf/2511.16449v5)
 [![License](https://img.shields.io/badge/License-MIT-g.svg)](LICENSE)
 
 **Ziyan Liu, Yeqiu Chen, Yiming Zhang, Hongyi Cai, Tao Lin, Runquan Gui, Shuo Yang, Zheng Liu, Bo Zhao**
@@ -21,7 +21,7 @@ VLA-Pruner is a training-free, plug-and-play visual token pruning method for eff
 
 🔥 **[2026/05/25]**: Code for OpenVLA-OFT is available ([OpenVLA-OFT README](src/openvla-oft/README_VLA_Pruner.md)).
 
-📝 **[2026/05/26]**: The latest revision of our paper is available ([arXiv v4](https://arxiv.org/abs/2511.16449v4)); see the previous version here ([arXiv v3](https://arxiv.org/abs/2511.16449v3)).
+📝 **[2026/05/26]**: The latest revision of our paper is available ([v0.2](https://arxiv.org/abs/2511.16449v5)); see the previous version here ([v0.2](https://arxiv.org/abs/2511.16449v3)).
 
 ---
 
